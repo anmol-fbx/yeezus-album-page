@@ -1,0 +1,67 @@
+body {
+    background: linear-gradient(135deg, #111, #333);
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    min-height: 100vh;
+}
+h1 {
+    font-size: 60px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: #aaa;
+    letter-spacing: 4px;
+}
+
+p {
+    color: #aaa;
+}
+
+.album-cover {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.album-cover:hover {
+    transform: scale(1.05);
+}
+
+ol {
+    display: inline-block;
+    text-align: left;
+    line-height: 2;
+}
+
+li {
+    padding: 5px;
+}
+
+li:hover {
+    color: #aaa;
+    cursor: pointer;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #aaa;
+}ol {
+    background-color: #1c1c1c;
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px black;
+}
